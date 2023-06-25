@@ -1,0 +1,47 @@
+.budgetItemSection {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+    .budgetItemsContainer {
+        display: flex;
+        max-width: 300px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .incomeCollum,
+    .expencessCollum {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 0;
+        flex-grow: 1;
+
+
+    }
+}
+
+.incomeCollum {
+    margin-right: 35px;
+
+    .income {
+        color: green;
+        font-weight: bold;
+    }
+}
+
+.expencessCollum {
+
+    .expencess {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+<section class="budgetItemSection">
+  <div class="budgetItemsContainer">
+    <div class="incomeCollum">
+      <h1 class="income">Income</h1>
+      <app-budgetItemCard [isIncome]="true"></app-budgetItemCard>
+      <app-budgetItemCard [isIncome]="true"></app-budgetItemCard>
+    </div>
+  </div>
+
+  <div class="budgetItemsContainer">
+    <div class="expencessCollum">
+      <h1 class="expencess">Expencess</h1>
+      <app-budgetItemCard [isIncome]="false"></app-budgetItemCard>
+      <app-budgetItemCard [isIncome]="false"></app-budgetItemCard>
+    </div>
+  </div>
+</section>

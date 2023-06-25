@@ -1,0 +1,53 @@
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: 68px;
+    background-color: rgb(214, 180, 247);
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-family: 'Lato';
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: rgb(22, 28, 41);
+}
+
+.total-budget-section {
+    display: flex;
+    height: 250px;
+    background-color: rgb(22, 28, 41);
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 58px;
+    color: white;
+
+    &.green {
+        color: green;
+    }
+
+    &.red {
+        color: red;
+    }
+}
+
+.add-item-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-item-container {
+        width: 680px;
+
+    }
+}
